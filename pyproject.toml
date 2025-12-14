@@ -1,0 +1,27 @@
+[project]
+name = "langgraph4-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Carlos-Felipe Rodriguez",email = "feliperod0519@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain (>=1.1.3,<2.0.0)",
+    "langchain-openai (>=1.1.3,<2.0.0)",
+    "langchain-tavily (>=0.2.14,<0.3.0)",
+    "langgraph (>=1.0.5,<2.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "black (>=25.12.0,<26.0.0)",
+    "isort (>=7.0.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0.0" # Allows 3.10, 3.11, 3.12
+
